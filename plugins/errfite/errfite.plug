@@ -1,0 +1,9 @@
+[Core]
+Name = Errfite
+Module = errfite
+
+[Documentation]
+Description = Conceptual Warfare
+
+[Python]
+Version = 2+

@@ -1,0 +1,278 @@
+2016-09-07 02:09:18,089 INFO     errbot.specific_plugin_manager storage search paths {'/usr/local/lib/python3.4/dist-packages/errbot/storage'}
+2016-09-07 02:09:18,091 INFO     errbot.specific_plugin_manager Found those plugings available:
+2016-09-07 02:09:18,092 INFO     errbot.specific_plugin_manager 	     Shelf  (/usr/local/lib/python3.4/dist-packages/errbot/storage/shelf.py)
+2016-09-07 02:09:18,093 INFO     errbot.specific_plugin_manager 	    Memory  (/usr/local/lib/python3.4/dist-packages/errbot/storage/memory.py)
+2016-09-07 02:09:18,094 INFO     errbot.bootstrap          Found Storage plugin: 'Shelf'
+Description: This is the storage plugin for the traditional shelf store for errbot.
+2016-09-07 02:09:18,095 DEBUG    errbot.specific_plugin_manager Refilter the plugins...
+2016-09-07 02:09:18,097 WARNING  yapsy                     Plugin candidate '/usr/local/lib/python3.4/dist-packages/errbot/storage/memory.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-09-07 02:09:18,098 DEBUG    errbot.specific_plugin_manager Load the one remaining...
+2016-09-07 02:09:18,100 DEBUG    errbot.specific_plugin_manager Class to load ShelfStoragePlugin
+2016-09-07 02:09:18,101 DEBUG    errbot.storage            Opening storage 'repomgr'
+2016-09-07 02:09:18,101 DEBUG    errbot.storage.shelf      Open shelf storage /home/ubuntu/pyfite/data/repomgr.db
+2016-09-07 02:09:18,122 DEBUG    errbot.storage            Opening storage 'core'
+2016-09-07 02:09:18,123 DEBUG    errbot.storage.shelf      Open shelf storage /home/ubuntu/pyfite/data/core.db
+2016-09-07 02:09:18,127 INFO     errbot.specific_plugin_manager backends search paths {'/usr/local/lib/python3.4/dist-packages/errbot/backends'}
+2016-09-07 02:09:18,132 INFO     errbot.specific_plugin_manager Found those plugings available:
+2016-09-07 02:09:18,133 INFO     errbot.specific_plugin_manager 	  Telegram  (/usr/local/lib/python3.4/dist-packages/errbot/backends/telegram_messenger.py)
+2016-09-07 02:09:18,134 INFO     errbot.specific_plugin_manager 	     Slack  (/usr/local/lib/python3.4/dist-packages/errbot/backends/slack.py)
+2016-09-07 02:09:18,135 INFO     errbot.specific_plugin_manager 	      Text  (/usr/local/lib/python3.4/dist-packages/errbot/backends/text.py)
+2016-09-07 02:09:18,136 INFO     errbot.specific_plugin_manager 	   Hipchat  (/usr/local/lib/python3.4/dist-packages/errbot/backends/hipchat.py)
+2016-09-07 02:09:18,137 INFO     errbot.specific_plugin_manager 	      Test  (/usr/local/lib/python3.4/dist-packages/errbot/backends/test.py)
+2016-09-07 02:09:18,138 INFO     errbot.specific_plugin_manager 	      Null  (/usr/local/lib/python3.4/dist-packages/errbot/backends/null.py)
+2016-09-07 02:09:18,138 INFO     errbot.specific_plugin_manager 	   Graphic  (/usr/local/lib/python3.4/dist-packages/errbot/backends/graphic.py)
+2016-09-07 02:09:18,139 INFO     errbot.specific_plugin_manager 	      XMPP  (/usr/local/lib/python3.4/dist-packages/errbot/backends/xmpp.py)
+2016-09-07 02:09:18,139 INFO     errbot.specific_plugin_manager 	       IRC  (/usr/local/lib/python3.4/dist-packages/errbot/backends/irc.py)
+2016-09-07 02:09:18,139 INFO     errbot.bootstrap          Found Backend plugin: 'Text'
+						Description: This is the text backend for Err.
+2016-09-07 02:09:18,139 DEBUG    errbot.specific_plugin_manager Refilter the plugins...
+2016-09-07 02:09:18,140 WARNING  yapsy                     Plugin candidate '/usr/local/lib/python3.4/dist-packages/errbot/backends/telegram_messenger.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-09-07 02:09:18,141 WARNING  yapsy                     Plugin candidate '/usr/local/lib/python3.4/dist-packages/errbot/backends/slack.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-09-07 02:09:18,142 WARNING  yapsy                     Plugin candidate '/usr/local/lib/python3.4/dist-packages/errbot/backends/hipchat.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-09-07 02:09:18,143 WARNING  yapsy                     Plugin candidate '/usr/local/lib/python3.4/dist-packages/errbot/backends/test.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-09-07 02:09:18,144 WARNING  yapsy                     Plugin candidate '/usr/local/lib/python3.4/dist-packages/errbot/backends/null.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-09-07 02:09:18,145 WARNING  yapsy                     Plugin candidate '/usr/local/lib/python3.4/dist-packages/errbot/backends/graphic.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-09-07 02:09:18,146 WARNING  yapsy                     Plugin candidate '/usr/local/lib/python3.4/dist-packages/errbot/backends/xmpp.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-09-07 02:09:18,147 WARNING  yapsy                     Plugin candidate '/usr/local/lib/python3.4/dist-packages/errbot/backends/irc.plug'  rejected by strategy 'SpecificBackendLocator'
+2016-09-07 02:09:18,147 DEBUG    errbot.specific_plugin_manager Load the one remaining...
+2016-09-07 02:09:18,170 DEBUG    errbot.specific_plugin_manager Class to load TextBackend
+2016-09-07 02:09:18,170 DEBUG    errbot.core               ErrBot init.
+2016-09-07 02:09:18,171 DEBUG    errbot.backends.base      Backend init.
+2016-09-07 02:09:18,173 DEBUG    errbot.core               created a thread pool of size 10.
+2016-09-07 02:09:18,175 DEBUG    errbot.backends.text      Text Backend Init.
+2016-09-07 02:09:18,182 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.smart_strong".
+2016-09-07 02:09:18,183 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.smart_strong.SmartEmphasisExtension".
+2016-09-07 02:09:18,184 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.fenced_code".
+2016-09-07 02:09:18,186 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+2016-09-07 02:09:18,188 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.footnotes".
+2016-09-07 02:09:18,189 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+2016-09-07 02:09:18,194 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.attr_list".
+2016-09-07 02:09:18,195 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+2016-09-07 02:09:18,196 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.def_list".
+2016-09-07 02:09:18,198 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+2016-09-07 02:09:18,199 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.tables".
+2016-09-07 02:09:18,200 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.tables.TableExtension".
+2016-09-07 02:09:18,201 DEBUG    MARKDOWN                  Successfuly imported extension module "markdown.extensions.abbr".
+2016-09-07 02:09:18,202 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+2016-09-07 02:09:18,203 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+2016-09-07 02:09:18,204 DEBUG    MARKDOWN                  Successfully loaded extension "errbot.rendering.ansiext.AnsiExtension".
+2016-09-07 02:09:18,217 DEBUG    errbot.core               Initializing backend storage
+2016-09-07 02:09:18,218 DEBUG    errbot.storage            Opening storage 'text_backend'
+2016-09-07 02:09:18,219 DEBUG    errbot.storage.shelf      Open shelf storage /home/ubuntu/pyfite/data/text_backend.db
+2016-09-07 02:09:18,238 DEBUG    errbot.plugin_manager     All plugin roots:
+2016-09-07 02:09:18,239 DEBUG    errbot.plugin_manager     -> /usr/local/lib/python3.4/dist-packages/errbot/core_plugins
+2016-09-07 02:09:18,240 DEBUG    errbot.plugin_manager     Add /usr/local/lib/python3.4/dist-packages/errbot/core_plugins to sys.path
+2016-09-07 02:09:18,241 DEBUG    errbot.plugin_manager     -> /home/ubuntu/pyfite/plugins/err-example
+2016-09-07 02:09:18,242 DEBUG    errbot.plugin_manager     Add /home/ubuntu/pyfite/plugins/err-example to sys.path
+2016-09-07 02:09:18,243 DEBUG    errbot.plugin_manager     check dependencies of /usr/local/lib/python3.4/dist-packages/errbot/core_plugins
+2016-09-07 02:09:18,244 DEBUG    errbot.plugin_manager     /usr/local/lib/python3.4/dist-packages/errbot/core_plugins has no requirements.txt file
+2016-09-07 02:09:18,244 DEBUG    errbot.plugin_manager     check dependencies of /home/ubuntu/pyfite/plugins/err-example
+2016-09-07 02:09:18,245 DEBUG    errbot.plugin_manager     /home/ubuntu/pyfite/plugins/err-example has no requirements.txt file
+2016-09-07 02:09:18,413 INFO     errbot                    webhooks:  Flag to bind /echo to echo
+2016-09-07 02:09:18,415 DEBUG    errbot.bootstrap          Start serving commands from the text backend
+2016-09-07 02:09:18,416 INFO     errbot.core               Activate internal commands
+2016-09-07 02:09:18,416 INFO     errbot.plugin_manager     Activate bot plugins...
+2016-09-07 02:09:18,416 INFO     errbot.plugin_manager     Activate plugin: Health
+2016-09-07 02:09:18,416 DEBUG    errbot.plugin_manager     Plugin Health has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2016-09-07 02:09:18,417 INFO     errbot.plugin_manager     Activating Health with min_err_version = 4.3.2 and max_version = 4.3.2
+2016-09-07 02:09:18,417 DEBUG    errbot.templating         Templates directory found for this plugin [/usr/local/lib/python3.4/dist-packages/errbot/core_plugins/templates]
+2016-09-07 02:09:18,417 DEBUG    errbot.botplugin          Init storage for Health
+2016-09-07 02:09:18,417 DEBUG    errbot.storage            Opening storage 'Health'
+2016-09-07 02:09:18,417 DEBUG    errbot.storage.shelf      Open shelf storage /home/ubuntu/pyfite/data/Health.db
+2016-09-07 02:09:18,420 DEBUG    errbot.core               Adding command : restart -> restart
+2016-09-07 02:09:18,420 DEBUG    errbot.core               Adding command : shutdown -> shutdown
+2016-09-07 02:09:18,420 DEBUG    errbot.core               Adding command : status -> status
+2016-09-07 02:09:18,420 DEBUG    errbot.core               Adding command : status_gc -> status_gc
+2016-09-07 02:09:18,420 DEBUG    errbot.core               Adding command : status_load -> status_load
+2016-09-07 02:09:18,420 DEBUG    errbot.core               Adding command : status_plugins -> status_plugins
+2016-09-07 02:09:18,420 DEBUG    errbot.core               Adding command : uptime -> uptime
+2016-09-07 02:09:18,420 INFO     errbot.core_plugins.wsview Checking Health for webhooks
+2016-09-07 02:09:18,421 INFO     errbot.plugin_manager     Activate plugin: ChatRoom
+2016-09-07 02:09:18,421 DEBUG    errbot.plugin_manager     Plugin ChatRoom has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2016-09-07 02:09:18,421 INFO     errbot.plugin_manager     Activating ChatRoom with min_err_version = 4.3.2 and max_version = 4.3.2
+2016-09-07 02:09:18,421 DEBUG    errbot.templating         Templates directory found for this plugin [/usr/local/lib/python3.4/dist-packages/errbot/core_plugins/templates]
+2016-09-07 02:09:18,421 DEBUG    errbot.botplugin          Init storage for ChatRoom
+2016-09-07 02:09:18,421 DEBUG    errbot.storage            Opening storage 'ChatRoom'
+2016-09-07 02:09:18,421 DEBUG    errbot.storage.shelf      Open shelf storage /home/ubuntu/pyfite/data/ChatRoom.db
+2016-09-07 02:09:18,424 DEBUG    errbot.core               Adding command : room_create -> room_create
+2016-09-07 02:09:18,424 DEBUG    errbot.core               Adding command : room_destroy -> room_destroy
+2016-09-07 02:09:18,424 DEBUG    errbot.core               Adding command : room_invite -> room_invite
+2016-09-07 02:09:18,424 DEBUG    errbot.core               Adding command : room_join -> room_join
+2016-09-07 02:09:18,424 DEBUG    errbot.core               Adding command : room_leave -> room_leave
+2016-09-07 02:09:18,424 DEBUG    errbot.core               Adding command : room_list -> room_list
+2016-09-07 02:09:18,424 DEBUG    errbot.core               Adding command : room_occupants -> room_occupants
+2016-09-07 02:09:18,424 DEBUG    errbot.core               Adding command : room_topic -> room_topic
+2016-09-07 02:09:18,424 INFO     errbot.core_plugins.wsview Checking ChatRoom for webhooks
+2016-09-07 02:09:18,424 INFO     errbot.plugin_manager     Activate plugin: VersionChecker
+2016-09-07 02:09:18,425 DEBUG    errbot.plugin_manager     Plugin VersionChecker has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2016-09-07 02:09:18,425 INFO     errbot.plugin_manager     Activating VersionChecker with min_err_version = 4.3.2 and max_version = 4.3.2
+2016-09-07 02:09:18,425 DEBUG    errbot.templating         Templates directory found for this plugin [/usr/local/lib/python3.4/dist-packages/errbot/core_plugins/templates]
+2016-09-07 02:09:18,425 INFO     errbot.plugins.VersionChecker Skip version checking under text mode
+2016-09-07 02:09:18,425 INFO     errbot.core_plugins.wsview Checking VersionChecker for webhooks
+2016-09-07 02:09:18,425 INFO     errbot.plugin_manager     Activate plugin: Utils
+2016-09-07 02:09:18,425 DEBUG    errbot.plugin_manager     Plugin Utils has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2016-09-07 02:09:18,425 INFO     errbot.plugin_manager     Activating Utils with min_err_version = 4.3.2 and max_version = 4.3.2
+2016-09-07 02:09:18,426 DEBUG    errbot.templating         Templates directory found for this plugin [/usr/local/lib/python3.4/dist-packages/errbot/core_plugins/templates]
+2016-09-07 02:09:18,426 DEBUG    errbot.botplugin          Init storage for Utils
+2016-09-07 02:09:18,426 DEBUG    errbot.storage            Opening storage 'Utils'
+2016-09-07 02:09:18,426 DEBUG    errbot.storage.shelf      Open shelf storage /home/ubuntu/pyfite/data/Utils.db
+2016-09-07 02:09:18,428 DEBUG    errbot.core               Adding command : echo -> echo
+2016-09-07 02:09:18,428 DEBUG    errbot.core               Adding command : history -> history
+2016-09-07 02:09:18,428 DEBUG    errbot.core               Adding command : log_tail -> log_tail
+2016-09-07 02:09:18,428 DEBUG    errbot.core               Adding command : render_test -> render_test
+2016-09-07 02:09:18,428 DEBUG    errbot.core               Adding command : whoami -> whoami
+2016-09-07 02:09:18,429 INFO     errbot.core_plugins.wsview Checking Utils for webhooks
+2016-09-07 02:09:18,429 INFO     errbot.plugin_manager     Activate plugin: Backup
+2016-09-07 02:09:18,429 DEBUG    errbot.plugin_manager     Plugin Backup has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2016-09-07 02:09:18,429 INFO     errbot.plugin_manager     Activating Backup with min_err_version = 4.3.2 and max_version = 4.3.2
+2016-09-07 02:09:18,429 DEBUG    errbot.templating         Templates directory found for this plugin [/usr/local/lib/python3.4/dist-packages/errbot/core_plugins/templates]
+2016-09-07 02:09:18,429 DEBUG    errbot.botplugin          Init storage for Backup
+2016-09-07 02:09:18,429 DEBUG    errbot.storage            Opening storage 'Backup'
+2016-09-07 02:09:18,429 DEBUG    errbot.storage.shelf      Open shelf storage /home/ubuntu/pyfite/data/Backup.db
+2016-09-07 02:09:18,432 DEBUG    errbot.core               Adding command : backup -> backup
+2016-09-07 02:09:18,432 INFO     errbot.core_plugins.wsview Checking Backup for webhooks
+2016-09-07 02:09:18,433 INFO     errbot.plugin_manager     Activate plugin: Plugins
+2016-09-07 02:09:18,433 DEBUG    errbot.plugin_manager     Plugin Plugins has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2016-09-07 02:09:18,433 INFO     errbot.plugin_manager     Activating Plugins with min_err_version = 4.3.2 and max_version = 4.3.2
+2016-09-07 02:09:18,433 DEBUG    errbot.templating         Templates directory found for this plugin [/usr/local/lib/python3.4/dist-packages/errbot/core_plugins/templates]
+2016-09-07 02:09:18,433 DEBUG    errbot.botplugin          Init storage for Plugins
+2016-09-07 02:09:18,433 DEBUG    errbot.storage            Opening storage 'Plugins'
+2016-09-07 02:09:18,433 DEBUG    errbot.storage.shelf      Open shelf storage /home/ubuntu/pyfite/data/Plugins.db
+2016-09-07 02:09:18,436 DEBUG    errbot.core               Adding command : plugin_activate -> plugin_activate
+2016-09-07 02:09:18,436 DEBUG    errbot.core               Adding command : plugin_blacklist -> plugin_blacklist
+2016-09-07 02:09:18,436 DEBUG    errbot.core               Adding command : plugin_config -> plugin_config
+2016-09-07 02:09:18,436 DEBUG    errbot.core               Adding command : plugin_deactivate -> plugin_deactivate
+2016-09-07 02:09:18,436 DEBUG    errbot.core               Adding command : plugin_reload -> plugin_reload
+2016-09-07 02:09:18,436 DEBUG    errbot.core               Adding command : plugin_unblacklist -> plugin_unblacklist
+2016-09-07 02:09:18,436 DEBUG    errbot.core               Adding command : repos -> repos
+2016-09-07 02:09:18,436 DEBUG    errbot.core               Adding command : repos_install -> repos_install
+2016-09-07 02:09:18,437 DEBUG    errbot.core               Adding command : repos_search -> repos_search
+2016-09-07 02:09:18,437 DEBUG    errbot.core               Adding command : repos_uninstall -> repos_uninstall
+2016-09-07 02:09:18,437 DEBUG    errbot.core               Adding command : repos_update -> repos_update
+2016-09-07 02:09:18,437 INFO     errbot.core_plugins.wsview Checking Plugins for webhooks
+2016-09-07 02:09:18,437 INFO     errbot.plugin_manager     Activate plugin: Help
+2016-09-07 02:09:18,437 DEBUG    errbot.plugin_manager     Plugin Help has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2016-09-07 02:09:18,437 INFO     errbot.plugin_manager     Activating Help with min_err_version = 4.3.2 and max_version = 4.3.2
+2016-09-07 02:09:18,437 DEBUG    errbot.templating         Templates directory found for this plugin [/usr/local/lib/python3.4/dist-packages/errbot/core_plugins/templates]
+2016-09-07 02:09:18,438 DEBUG    errbot.botplugin          Init storage for Help
+2016-09-07 02:09:18,438 DEBUG    errbot.storage            Opening storage 'Help'
+2016-09-07 02:09:18,438 DEBUG    errbot.storage.shelf      Open shelf storage /home/ubuntu/pyfite/data/Help.db
+2016-09-07 02:09:18,440 DEBUG    errbot.core               Adding command : about -> about
+2016-09-07 02:09:18,440 DEBUG    errbot.core               Adding command : apropos -> apropos
+2016-09-07 02:09:18,440 DEBUG    errbot.core               Adding command : help -> help
+2016-09-07 02:09:18,440 INFO     errbot.core_plugins.wsview Checking Help for webhooks
+2016-09-07 02:09:18,441 INFO     errbot.plugin_manager     Activate plugin: Flows
+2016-09-07 02:09:18,441 DEBUG    errbot.plugin_manager     Plugin Flows has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2016-09-07 02:09:18,441 INFO     errbot.plugin_manager     Activating Flows with min_err_version = 4.3.2 and max_version = 4.3.2
+2016-09-07 02:09:18,441 DEBUG    errbot.templating         Templates directory found for this plugin [/usr/local/lib/python3.4/dist-packages/errbot/core_plugins/templates]
+2016-09-07 02:09:18,441 DEBUG    errbot.botplugin          Init storage for Flows
+2016-09-07 02:09:18,441 DEBUG    errbot.storage            Opening storage 'Flows'
+2016-09-07 02:09:18,441 DEBUG    errbot.storage.shelf      Open shelf storage /home/ubuntu/pyfite/data/Flows.db
+2016-09-07 02:09:18,443 DEBUG    errbot.core               Adding command : flows_kill -> flows_kill
+2016-09-07 02:09:18,443 DEBUG    errbot.core               Adding command : flows_list -> flows_list
+2016-09-07 02:09:18,444 DEBUG    errbot.core               Adding command : flows_show -> flows_show
+2016-09-07 02:09:18,444 DEBUG    errbot.core               Adding command : flows_start -> flows_start
+2016-09-07 02:09:18,444 DEBUG    errbot.core               Adding command : flows_status -> flows_status
+2016-09-07 02:09:18,444 DEBUG    errbot.core               Adding command : flows_stop -> flows_stop
+2016-09-07 02:09:18,444 INFO     errbot.core_plugins.wsview Checking Flows for webhooks
+2016-09-07 02:09:18,444 INFO     errbot.plugin_manager     Activate plugin: ACLs
+2016-09-07 02:09:18,444 DEBUG    errbot.plugin_manager     Plugin ACLs has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2016-09-07 02:09:18,444 INFO     errbot.plugin_manager     Activating ACLs with min_err_version = 4.3.2 and max_version = 4.3.2
+2016-09-07 02:09:18,445 DEBUG    errbot.templating         Templates directory found for this plugin [/usr/local/lib/python3.4/dist-packages/errbot/core_plugins/templates]
+2016-09-07 02:09:18,445 DEBUG    errbot.botplugin          Init storage for ACLS
+2016-09-07 02:09:18,445 DEBUG    errbot.storage            Opening storage 'ACLS'
+2016-09-07 02:09:18,445 DEBUG    errbot.storage.shelf      Open shelf storage /home/ubuntu/pyfite/data/ACLS.db
+2016-09-07 02:09:18,447 DEBUG    errbot.core               Adding command filter: acls
+2016-09-07 02:09:18,447 INFO     errbot.core_plugins.wsview Checking ACLS for webhooks
+2016-09-07 02:09:18,448 INFO     errbot.plugin_manager     Activate plugin: Webserver
+2016-09-07 02:09:18,448 DEBUG    errbot.plugin_manager     Plugin Webserver has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2016-09-07 02:09:18,448 INFO     errbot.plugin_manager     Activating Webserver with min_err_version = 4.3.2 and max_version = 4.3.2
+2016-09-07 02:09:18,448 DEBUG    errbot.templating         Templates directory found for this plugin [/usr/local/lib/python3.4/dist-packages/errbot/core_plugins/templates]
+2016-09-07 02:09:18,448 INFO     errbot.plugins.Webserver  Webserver is not configured. Forbid activation
+2016-09-07 02:09:18,448 INFO     errbot.core_plugins.wsview Checking Webserver for webhooks
+2016-09-07 02:09:18,448 INFO     errbot.core_plugins.wsview Webhook routing echo
+2016-09-07 02:09:18,449 INFO     errbot.plugin_manager     Activate plugin: Example
+2016-09-07 02:09:18,449 DEBUG    errbot.plugin_manager     Plugin Example has no section [Errbot]. Assuming this plugin is runnning on any Errbot version.
+2016-09-07 02:09:18,449 INFO     errbot.plugin_manager     Activating Example with min_err_version = 4.3.2 and max_version = 4.3.2
+2016-09-07 02:09:18,449 DEBUG    errbot.templating         No templates directory found for this plugin [Looking for /home/ubuntu/pyfite/plugins/err-example/templates]
+2016-09-07 02:09:18,449 DEBUG    errbot.botplugin          Init storage for Example
+2016-09-07 02:09:18,449 DEBUG    errbot.storage            Opening storage 'Example'
+2016-09-07 02:09:18,449 DEBUG    errbot.storage.shelf      Open shelf storage /home/ubuntu/pyfite/data/Example.db
+2016-09-07 02:09:18,466 DEBUG    errbot.core               Adding command : tryme -> tryme
+2016-09-07 02:09:18,466 INFO     errbot.core_plugins.wsview Checking Example for webhooks
+2016-09-07 02:09:18,466 DEBUG    errbot.plugin_manager     Activate flow plugins ...
+2016-09-07 02:09:18,466 INFO     errbot.core               
+2016-09-07 02:09:18,466 INFO     errbot.core               Notifying connection to all the plugins...
+2016-09-07 02:09:18,466 DEBUG    errbot.core               Trigger callback_connect on Health
+2016-09-07 02:09:18,466 DEBUG    errbot.core               Trigger callback_connect on ChatRoom
+2016-09-07 02:09:18,466 INFO     errbot.plugins.ChatRoom   Callback_connect
+2016-09-07 02:09:18,467 DEBUG    errbot.core               Trigger callback_connect on Utils
+2016-09-07 02:09:18,467 DEBUG    errbot.core               Trigger callback_connect on Backup
+2016-09-07 02:09:18,467 DEBUG    errbot.core               Trigger callback_connect on Plugins
+2016-09-07 02:09:18,467 DEBUG    errbot.core               Trigger callback_connect on Help
+2016-09-07 02:09:18,467 DEBUG    errbot.core               Trigger callback_connect on Flows
+2016-09-07 02:09:18,467 DEBUG    errbot.core               Trigger callback_connect on ACLS
+2016-09-07 02:09:18,467 DEBUG    errbot.core               Trigger callback_connect on Example
+2016-09-07 02:09:18,467 INFO     errbot.core               Plugin activation done.
+2016-09-07 02:09:18,467 DEBUG    errbot.core               Triggering callback_presence on Health
+2016-09-07 02:09:18,467 DEBUG    errbot.core               Triggering callback_presence on ChatRoom
+2016-09-07 02:09:18,467 DEBUG    errbot.core               Triggering callback_presence on Utils
+2016-09-07 02:09:18,467 DEBUG    errbot.core               Triggering callback_presence on Backup
+2016-09-07 02:09:18,467 DEBUG    errbot.core               Triggering callback_presence on Plugins
+2016-09-07 02:09:18,467 DEBUG    errbot.core               Triggering callback_presence on Help
+2016-09-07 02:09:18,467 DEBUG    errbot.core               Triggering callback_presence on Flows
+2016-09-07 02:09:18,467 DEBUG    errbot.core               Triggering callback_presence on ACLS
+2016-09-07 02:09:18,467 DEBUG    errbot.core               Triggering callback_presence on Example
+2016-09-07 02:09:24,648 DEBUG    errbot.core               *** frm = CHANGE ME
+2016-09-07 02:09:24,648 DEBUG    errbot.core               *** username = CHANGE ME
+2016-09-07 02:09:24,649 DEBUG    errbot.core               *** text = ping
+2016-09-07 02:09:24,649 DEBUG    errbot.core               Triggering callback_message on Health
+2016-09-07 02:09:24,649 DEBUG    errbot.core               Triggering callback_message on ChatRoom
+2016-09-07 02:09:24,649 DEBUG    errbot.core               Triggering callback_message on Utils
+2016-09-07 02:09:24,649 DEBUG    errbot.core               Triggering callback_message on Backup
+2016-09-07 02:09:24,649 DEBUG    errbot.core               Triggering callback_message on Plugins
+2016-09-07 02:09:24,649 DEBUG    errbot.core               Triggering callback_message on Help
+2016-09-07 02:09:24,649 DEBUG    errbot.core               Triggering callback_message on Flows
+2016-09-07 02:09:24,649 DEBUG    errbot.core               Triggering callback_message on ACLS
+2016-09-07 02:09:24,649 DEBUG    errbot.core               Triggering callback_message on Example
+2016-09-07 02:09:26,906 DEBUG    errbot.core               *** frm = CHANGE ME
+2016-09-07 02:09:26,906 DEBUG    errbot.core               *** username = CHANGE ME
+2016-09-07 02:09:26,906 DEBUG    errbot.core               *** text = !ping
+2016-09-07 02:09:26,906 DEBUG    errbot.core               Command not found
+2016-09-07 02:09:26,908 DEBUG    errbot.core               Triggering callback_message on Health
+2016-09-07 02:09:26,908 DEBUG    errbot.core               Triggering callback_message on ChatRoom
+2016-09-07 02:09:26,908 DEBUG    errbot.core               Triggering callback_message on Utils
+2016-09-07 02:09:26,908 DEBUG    errbot.core               Triggering callback_message on Backup
+2016-09-07 02:09:26,909 DEBUG    errbot.core               Triggering callback_message on Plugins
+2016-09-07 02:09:26,909 DEBUG    errbot.core               Triggering callback_message on Help
+2016-09-07 02:09:26,909 DEBUG    errbot.core               Triggering callback_message on Flows
+2016-09-07 02:09:26,909 DEBUG    errbot.core               Triggering callback_message on ACLS
+2016-09-07 02:09:26,909 DEBUG    errbot.core               Triggering callback_message on Example
+2016-09-07 02:09:30,254 DEBUG    errbot.core               Triggering callback_presence on Health
+2016-09-07 02:09:30,254 DEBUG    errbot.core               Triggering callback_presence on ChatRoom
+2016-09-07 02:09:30,254 DEBUG    errbot.core               Triggering callback_presence on Utils
+2016-09-07 02:09:30,254 DEBUG    errbot.core               Triggering callback_presence on Backup
+2016-09-07 02:09:30,254 DEBUG    errbot.core               Triggering callback_presence on Plugins
+2016-09-07 02:09:30,254 DEBUG    errbot.core               Triggering callback_presence on Help
+2016-09-07 02:09:30,254 DEBUG    errbot.core               Triggering callback_presence on Flows
+2016-09-07 02:09:30,254 DEBUG    errbot.core               Triggering callback_presence on ACLS
+2016-09-07 02:09:30,254 DEBUG    errbot.core               Triggering callback_presence on Example
+2016-09-07 02:09:30,255 DEBUG    errbot.backends.text      Trigger disconnect callback
+2016-09-07 02:09:30,255 INFO     errbot.core               Disconnect callback, deactivating all the plugins.
+2016-09-07 02:09:30,255 DEBUG    errbot.storage            Closed storage 'ChatRoom'
+2016-09-07 02:09:30,255 DEBUG    errbot.storage            Closed storage 'Health'
+2016-09-07 02:09:30,256 DEBUG    errbot.storage            Closed storage 'Example'
+2016-09-07 02:09:30,256 DEBUG    errbot.storage            Closed storage 'Flows'
+2016-09-07 02:09:30,257 DEBUG    errbot.storage            Closed storage 'Help'
+2016-09-07 02:09:30,257 DEBUG    errbot.storage            Closed storage 'Plugins'
+2016-09-07 02:09:30,258 DEBUG    errbot.storage            Closed storage 'Backup'
+2016-09-07 02:09:30,258 DEBUG    errbot.storage            Closed storage 'ACLS'
+2016-09-07 02:09:30,259 DEBUG    errbot.core               Removing command filter: acls
+2016-09-07 02:09:30,259 DEBUG    errbot.storage            Closed storage 'Utils'
+2016-09-07 02:09:30,259 DEBUG    errbot.backends.text      Trigger shutdown
+2016-09-07 02:09:30,260 DEBUG    errbot.storage            Closed storage 'text_backend'
+2016-09-07 02:09:30,260 INFO     errbot.plugin_manager     Shutdown.
+2016-09-07 02:09:30,272 DEBUG    errbot.storage            Closed storage 'core'
+2016-09-07 02:09:30,272 INFO     errbot.plugin_manager     Bye.
+2016-09-07 02:09:30,272 DEBUG    errbot.storage            Closed storage 'repomgr'
+2016-09-07 02:09:30,272 INFO     errbot.cli                Process exiting

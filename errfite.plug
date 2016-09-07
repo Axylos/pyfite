@@ -1,0 +1,6 @@
+[Core]
+Name = Errfite
+Module = errfite
+
+[Documentation]
+Description = a poll fite bot
